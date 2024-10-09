@@ -6,7 +6,7 @@ st.title('THE FIRST APP')
 
 with st.expander('The data'):
   st.write('**Raw data**')
-  data= pd.readcsv('https://raw.githubusercontent.com/dataprofessor/data/master/mushrooms.csv')
+  data= pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/mushrooms.csv')
   df
 
 
