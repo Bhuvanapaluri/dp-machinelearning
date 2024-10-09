@@ -10,7 +10,7 @@ with st.expander('The data'):
   df
 
   st.write('**class and color**')
-  class = pd.('class','color')
+  class = df[['class', 'color']]
   class
 
 
