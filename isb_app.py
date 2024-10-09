@@ -9,6 +9,9 @@ with st.expander('The data'):
   df= pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/mushrooms.csv')
   df
 
+  st.write('**class and color**')
+  class = pd.('class','color')
+  class
 
 
 
