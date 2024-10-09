@@ -7,7 +7,7 @@ st.title('THE FIRST APP')
 with st.expander('The data'):
   #st.write('**Raw data**')
 
-data= pd.readcsv('/Applications/office_iot.csv)
+data= pd.readcsv('/Applications/office_iot.csv')
 
 
 
