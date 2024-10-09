@@ -10,8 +10,8 @@ with st.expander('The data'):
   df
 
   st.write('**class and color**')
-  class = df[['class', 'color']]
-  class
+  class_raw = df[['class', 'color']]
+  class_raw
 
 
 
