@@ -13,5 +13,8 @@ with st.expander('The data'):
   class_raw = df[['gill-size', 'gill-spacing']]
   class_raw
 
+  with st.expander('Data visualization'):
+  st.scatter_chart(data=df, x='gill-size', y='gill-spacing', color='pink')
+
 
 
