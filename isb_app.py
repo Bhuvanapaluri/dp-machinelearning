@@ -10,7 +10,7 @@ with st.expander('The data'):
   df
 
   st.write('**class and color**')
-  class_raw = df[['class', 'cap_color']]
+  class_raw = df[['gill-size', 'gill-spacing']]
   class_raw
 
 
